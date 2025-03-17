@@ -1,0 +1,16 @@
+/* header */
+.header-bg {
+
+    background-color: rgb( 37, 150, 190);
+    background-image: url(../img/pattern.png);
+    background-size: 50%;
+    height: 50px;
+   
+
+}
+.logos {
+     height: 50%;
+     
+        
+   
+}
