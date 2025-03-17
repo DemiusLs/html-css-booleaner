@@ -1,16 +1,46 @@
 /* header */
 .header-bg {
 
-    background-color: rgb( 37, 150, 190);
+    background-color: rgb(37, 150, 190);
     background-image: url(../img/pattern.png);
     background-size: 50%;
     height: 50px;
-   
+
 
 }
+
 .logos {
-     height: 50%;
-     
-        
-   
+    height: 50%;
+
+
+
+}
+
+/* main */
+
+.titolo {
+    font-size: 18px;
+    margin-bottom: 0;
+
+}
+
+.sottotitolo {
+
+    font-size: 10px;
+    color: rgb(128, 128, 128);
+    margin-bottom: 0;
+    margin-top: 0;
+
+}
+
+.linksite {
+    text-decoration: none;
+    color: rgb(35, 112, 175);
+
+}
+
+.data {
+    font-size: 5px;
+    color: rgb(128, 128, 128);
+    margin-top: 0;
 }
