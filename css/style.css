@@ -1,67 +1,99 @@
-/* header */
-.header-bg {
+/* reset immagini */
 
+img {
+    max-width: 100%;
+}
+
+/* header */
+.header {
     background-color: rgb(37, 150, 190);
     background-image: url(../img/pattern.png);
-    background-size: 50%;
-    height: 50px;
-
-
+    background-size: 300px;
+    height: 100px;
 }
 
-.logos {
+.header-logo {
     height: 50%;
-
-
-
 }
 
-/* main */
-
-.titolo {
-    font-size: 18px;
-    margin-bottom: 0;
-
+/* MAIN */
+.article-title {
+    font-size: 46px;
 }
 
-.sottotitolo {
-
-    font-size: 10px;
-    color: rgb(128, 128, 128);
-    margin-bottom: 0;
-    margin-top: 0;
-
-}
-
-.linksite {
+.author a {
     text-decoration: none;
-    color: rgb(35, 112, 175);
+    color: rgb(16, 30, 151);
+}
+
+.aticle-image figcaption {
+    font-size: 12px;
+}
+
+/* Per raggruppare due classi insieme usiamo la , */
+
+.author,
+.date {
+    color: gray;
+}
+
+/* .highlight{
+     font-weight: 400;
+     background-color: yellow;
+} */
+/* Tabella */
+.large-col {
+    width: 50%;
+}
+
+.article-table th {
+    text-align: left;
+}
+
+.article-table thead {
+    background-color: rgb(62, 133, 161);
+    color: aliceblue;
 
 }
 
-.data {
-    font-size: 5px;
-    color: rgb(128, 128, 128);
-    margin-top: 0;
+.article-table {
+    border-collapse: collapse;
 }
 
-
-
-.tim-picture {}
-
-.picture1 {
-    width: 60%;
+tbody tr:nth-child(odd) {
+    background-color: rgba(46, 132, 167, 0.74);
 }
 
-.picture2 {
-    width: 40%;
-}
+/* sezione suggerimenti */
+.monitor {
 
-.highlight{
-    background-color: rgb(255, 255, 0);
+    background-image: url(../img/monitor.jpg);
 
 }
 
-.rigahead{
+/* .monitor a {
+    color: aliceblue;
+    text-decoration: none;
+} */
+
+.graph {
+    background-image: url(../img/graph.jpg)
+}
+
+/* .graph a {
+    color: aliceblue;
+    text-decoration: none;
+} */
+
+.suggestion {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+
+}
+
+.suggestion a {
+    color: aliceblue;
+    text-decoration: none;
 
 }
