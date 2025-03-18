@@ -44,3 +44,24 @@
     color: rgb(128, 128, 128);
     margin-top: 0;
 }
+
+
+
+.tim-picture {}
+
+.picture1 {
+    width: 60%;
+}
+
+.picture2 {
+    width: 40%;
+}
+
+.highlight{
+    background-color: rgb(255, 255, 0);
+
+}
+
+.rigahead{
+
+}
