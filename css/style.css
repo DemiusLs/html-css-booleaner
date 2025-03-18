@@ -65,7 +65,7 @@ tbody tr:nth-child(odd) {
 }
 
 /* sezione suggerimenti */
-.monitor {
+#monitor {
 
     background-image: url(../img/monitor.jpg);
 
@@ -76,7 +76,7 @@ tbody tr:nth-child(odd) {
     text-decoration: none;
 } */
 
-.graph {
+#graph {
     background-image: url(../img/graph.jpg)
 }
 
@@ -86,8 +86,8 @@ tbody tr:nth-child(odd) {
 } */
 
 .suggestion {
-    width: 200px;
-    height: 200px;
+    width: 20%;
+    aspect-ratio: 1;
     margin-bottom: 10px;
 
 }
