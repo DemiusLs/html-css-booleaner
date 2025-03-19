@@ -9,10 +9,15 @@
 </head>
 
 <body>
+
+
     <!-- inizio header -->
     <header class="header">
         <!-- capire come ancorare il logo in basso a sinistra -->
-        <img src="./img/logo.svg" alt="Logo the Booleaner" class="header-logo">
+        <div class="container">
+            <img src="./img/logo.svg" alt="Logo the Booleaner" class="header-logo">
+        </div>
+
 
     </header>
     <!-- fine header -->
@@ -20,113 +25,125 @@
     <!-- inzio main -->
     <main>
         <!-- articolo principale -->
-        <article>
-            <h1 class="article-title">Internet deve essere al servizio del "bene pubblico": il manifesto di Tim
-                Berners-Lee</h1>
-            <p class="author">Scritto da <a href="">The Booleaner</a></p>
-            <time datetime="2020-10-10" class="date">10/10/2020</time>
+        <div class="container">
+            <article>
+                <div class="intestazione">
+                    <h1 class="article-title">Internet deve essere al servizio del "bene pubblico": il manifesto di Tim
+                        Berners-Lee</h1>
+                    <p class="author">Scritto da <a href="">The Booleaner</a></p>
+                    <time datetime="2020-10-10" class="date">10/10/2020</time>
+                </div>
 
-            <!-- Sezione delle immagini, dovrebbero essere sulla stessa linea -->
-            <figure class="article-img">
-                <img src="./img/tim-1.jpg" alt="tim-1">
-                <img src="./img/tim-2.jpg" alt="tim-2">
-                <figcaption>
-                    1st Photo: John S, and James L. Knight Foundation,by Scott Henrichsen <br>
-                    2nd Photo: Wikimedia,by Paul Clarke
-                </figcaption>
 
-            </figure>
+                <!-- Sezione delle immagini, dovrebbero essere sulla stessa linea -->
+                <figure class="article-image">
+                    <img src="./img/tim-1.jpg" alt="tim-1">
+                    <img src="./img/tim-2.jpg" alt="tim-2">
+                    <figcaption>
+                        1st Photo: John S, and James L. Knight Foundation,by Scott Henrichsen <br>
+                        2nd Photo: Wikimedia,by Paul Clarke
+                    </figcaption>
 
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio numquam quam minima fugit, doloremque nam
-                aspernatur laudantium, <mark>suscipit sit maxime explicabo aliquam assumenda
-                    velit</mark> . Repudiandae aliquid
-                molestias nihil praesentium tempore?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A ratione exercitationem cum! Vero quas
-                corrupti beatae asperiores consectetur ad corporis, rem exercitationem, dolore magnam minus saepe minima
-                ipsam cupiditate in?
-            </p>
+                </figure>
 
-            <ul>
-                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
-                <li>Voluptatem repellendus blanditiis, accusantium eius molestias aliquid adipisci magni quasi tenetur
-                    iure esse.</li>
-                <li>Repudiandae sint excepturi, beatae commodi veniam enim quaerat quo.</li>
-            </ul>
-            <!-- tebella -->
-            <table class="article-table">
-                <!-- header tabella -->
-                <thead>
-                    <tr>
-                        <th>Lorem ipsum dolor</th>
-                        <th>Lorem ipsum dolor</th>
-                        <th class="large-col">Lorem ipsum dolor</th>
-                    </tr>
+                <p class="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio numquam quam minima fugit, doloremque
+                    nam
+                    aspernatur laudantium, <mark>suscipit sit maxime explicabo aliquam assumenda
+                        velit</mark> . Repudiandae aliquid
+                    molestias nihil praesentium tempore?
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. A ratione exercitationem cum! Vero quas
+                    corrupti beatae asperiores consectetur ad corporis, rem exercitationem, dolore magnam minus saepe
+                    minima
+                    ipsam cupiditate in?
+                </p>
 
-                </thead>
-                <!-- fine header tabella -->
-                <!-- Inizio body tabella -->
-                <tbody>
-                    <tr>
-                        <td class="rigadis">Lorem ipsum dolor</td>
-                        <td class="rigadis">Lorem ipsum dolor</td>
-                        <td class="rigadis">Lorem, ipsum dolor sit amet consectetur adipisicing elit. A ratione
-                            exercitationem cum! Vero quas
-                            corrupti beatae asperiores consectetur ad corporis, rem exercitationem, dolore magnam minus
-                            saepe minima
-                            ipsam cupiditate in?</td>
-                    </tr>
-                    <tr>
-                        <td class="rigapar">Lorem ipsum dolor</td>
-                        <td class="rigapar">Lorem ipsum dolor</td>
-                        <td class="rigapar">Lorem, ipsum dolor sit amet consectetur adipisicing elit. A ratione
-                            exercitationem cum! Vero quas
-                            corrupti beatae asperiores consectetur ad corporis, rem exercitationem, dolore magnam minus
-                            saepe minima
-                            ipsam cupiditate in?</td>
-                    </tr>
-                    <tr>
-                        <td class="rigadis">Lorem ipsum dolor</td>
-                        <td class="rigadis">Lorem ipsum dolor</td>
-                        <td class="rigadis">Lorem, ipsum dolor sit amet consectetur adipisicing elit. A ratione
-                            exercitationem cum! Vero quas
-                            corrupti beatae asperiores consectetur ad corporis, rem exercitationem, dolore magnam minus
-                            saepe minima
-                            ipsam cupiditate in?</td>
-                    </tr>
-                </tbody>
-                <!-- fine body tabella -->
-                <!-- Inizio footer tabella -->
-                <tfoot></tfoot>
-                <!-- fine footer tabella -->
-            </table>
+                <ul class="list">
+                    <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li>Voluptatem repellendus blanditiis, accusantium eius molestias aliquid adipisci magni quasi
+                        tenetur
+                        iure esse.</li>
+                    <li>Repudiandae sint excepturi, beatae commodi veniam enim quaerat quo.</li>
+                </ul>
+                <!-- tebella -->
+                <table class="article-table">
+                    <!-- header tabella -->
+                    <thead>
+                        <tr>
+                            <th>Lorem ipsum dolor</th>
+                            <th>Lorem ipsum dolor</th>
+                            <th class="large-col">Lorem ipsum dolor</th>
+                        </tr>
 
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio numquam quam minima fugit, doloremque nam
-                aspernatur laudantium, <mark>suscipit sit maxime explicabo aliquam assumenda
-                    velit</mark> . Repudiandae aliquid
-                molestias nihil praesentium tempore?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. A ratione exercitationem cum! Vero quas
-                corrupti beatae asperiores consectetur ad corporis, rem exercitationem, dolore magnam minus saepe minima
-                ipsam cupiditate in?
-            </p>
+                    </thead>
+                    <!-- fine header tabella -->
+                    <!-- Inizio body tabella -->
+                    <tbody>
+                        <tr>
+                            <td class="rigadis">Lorem ipsum dolor</td>
+                            <td class="rigadis">Lorem ipsum dolor</td>
+                            <td class="rigadis">Lorem, ipsum dolor sit amet consectetur adipisicing elit. A ratione
+                                exercitationem cum! Vero quas
+                                corrupti beatae asperiores consectetur ad corporis, rem exercitationem, dolore magnam
+                                minus
+                                saepe minima
+                                ipsam cupiditate in?</td>
+                        </tr>
+                        <tr>
+                            <td class="rigapar">Lorem ipsum dolor</td>
+                            <td class="rigapar">Lorem ipsum dolor</td>
+                            <td class="rigapar">Lorem, ipsum dolor sit amet consectetur adipisicing elit. A ratione
+                                exercitationem cum! Vero quas
+                                corrupti beatae asperiores consectetur ad corporis, rem exercitationem, dolore magnam
+                                minus
+                                saepe minima
+                                ipsam cupiditate in?</td>
+                        </tr>
+                        <tr>
+                            <td class="rigadis">Lorem ipsum dolor</td>
+                            <td class="rigadis">Lorem ipsum dolor</td>
+                            <td class="rigadis">Lorem, ipsum dolor sit amet consectetur adipisicing elit. A ratione
+                                exercitationem cum! Vero quas
+                                corrupti beatae asperiores consectetur ad corporis, rem exercitationem, dolore magnam
+                                minus
+                                saepe minima
+                                ipsam cupiditate in?</td>
+                        </tr>
+                    </tbody>
+                    <!-- fine body tabella -->
+                    <!-- Inizio footer tabella -->
+                    <tfoot></tfoot>
+                    <!-- fine footer tabella -->
+                </table>
 
-        </article>
-        <!-- fine articolo -->
+                <p class="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio numquam quam minima fugit, doloremque
+                    nam
+                    aspernatur laudantium, <mark>suscipit sit maxime explicabo aliquam assumenda
+                        velit</mark> . Repudiandae aliquid
+                    molestias nihil praesentium tempore?
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. A ratione exercitationem cum! Vero quas
+                    corrupti beatae asperiores consectetur ad corporis, rem exercitationem, dolore magnam minus saepe
+                    minima
+                    ipsam cupiditate in?
+                </p>
 
-        <!-- sezione suggerimenti -->
-        <section>
-            <h3 class="section-title">Potrebbero interessarti</h3>
+            </article>
+            <!-- fine articolo -->
 
-            <div class="suggestion" id="monitor">
-                <a href="">Articolo 1</a>
-            </div>
-            <div class="suggestion" id="graph">
-                <a href="">Articolo 2</a>
-            </div>
-        </section>
-        <!-- fine sezione suggerimenti -->
+            <!-- sezione suggerimenti -->
+            <section>
+                <h3 class="suggestion-title">Potrebbero interessarti</h3>
 
+                <div class="suggestion" id="monitor">
+                    <a href="">Articolo 1</a>
+                </div>
+                <div class="suggestion" id="graph">
+                    <a href="">Articolo 2</a>
+                </div>
+            </section>
+            <!-- fine sezione suggerimenti -->
+        </div>
     </main>
     <!-- fine main -->
     <!-- inizio footer -->
